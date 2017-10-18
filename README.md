@@ -3,11 +3,14 @@ simple OIDC example
 
 
 Qualquer endpoint acessado irá redirecionar o usuário para o Cognito.
+
     Caso já exista um sessão válida no Cognito, o usuário é redirecionado para a aplicação.
+    
     Caso não exista um sessão válida, o usurio faz login e é redirecionado para a aplicação.
+    
 Em ambos os casos acima, o Cognito retorna um ID Token do JWT gerado para a aplicação no endpoint definido no arquivo de properties:
 
-openid.authenticationEntryPoint=<endpoint path>
+    openid.authenticationEntryPoint=<endpoint path>
   
   
     

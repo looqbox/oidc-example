@@ -11,7 +11,7 @@ Qualquer endpoint acessado irá redirecionar o usuário para o Cognito.
     
     Caso não exista um sessão válida, o usurio faz login e é redirecionado para a aplicação.
     
-Em ambos os casos acima, o Cognito retorna um ID Token do JWT gerado para a aplicação no endpoint definido no arquivo de properties
+Em ambos os casos acima, o Cognito retorna um ID Token do JWT gerado para a aplicação no endpoint definido no [arquivo de properties](https://github.com/looqbox/oidc-example/blob/master/src/main/resources/application.properties)
 
 ### Scopes e Flows
 Na tela de admin do cognito, ir em App Integration > App client settings:
